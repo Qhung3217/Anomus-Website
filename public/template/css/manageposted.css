@@ -1,0 +1,38 @@
+.post-link{
+    text-decoration: none;
+    color: #0F1544;
+}
+.action{
+    text-decoration: none;
+    color: #0F1544;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.action .edit{
+    text-decoration: none;
+
+}
+
+.action .delete{
+    cursor: pointer;
+}
+.button{
+    display: inline-block;
+    background-color: #666;
+    border-radius: 30%;
+    color: #fafafa;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    transition: all 0.2s linear;
+}
+
+.button:hover{
+    background-color: #0F1544;
+    color: aqua;
+}

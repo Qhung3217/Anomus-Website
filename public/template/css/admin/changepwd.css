@@ -1,0 +1,74 @@
+.changepwdform{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert-danger{
+    margin-top: 20px;
+    width: 350px;
+    padding-top: 10px;
+}
+.changepwdform table{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #0F1544;
+    border-radius: 5px!important;
+    padding: 10px;
+}
+
+.changepwdform table tbody{
+    width: 400px;
+    height: 100%;
+
+}
+.changepwdform .head-table{
+    font-size: 36px;
+    /* margin-top: 20px; */
+    color: #3F62FF;
+    height: 30px;
+}
+.changepwdform .head-table th{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.changepwdform tbody tr{
+    height: 35px;
+    text-align: center;
+}
+
+.changepwdform .label{
+    width: 130px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.changepwdform .field input{
+    text-align: left;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #0F1544;
+    margin-top: 5px;
+}
+.changepwdform tbody:nth-last-child(1) .field input{
+    transform: translateY(10px);
+
+}
+.changepwdform .submit{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #3F62FF;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.changepwdform .submit:hover{
+    opacity: 0.5;
+}
